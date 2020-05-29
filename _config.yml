@@ -5,9 +5,9 @@
 # Site
 title: 龍
 subtitle: '书山有路勤为径，学海无涯苦作舟。'
-description: ''
+description: '暂无'
 keywords: 编程
-author: 刘华龙
+author: Liuhualong
 language: zh-Hans
 timezone: 'Asia/Shanghai'
 
@@ -51,13 +51,6 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
-
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-
-
 
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
