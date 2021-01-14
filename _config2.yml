@@ -5,16 +5,16 @@
 # Site
 title: 龍
 subtitle: '书山有路勤为径，学海无涯苦作舟。'
-description: '究天人之际，通古今之变，成一家之言'
+description: '暂无'
 keywords: 编程
-author: Liu Hualong
+author: Liuhualong
 language: zh-Hans
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://longqing9.gitee.io/blog
-root: /blog/
+url: http://yoursite.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -113,7 +113,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repository: https://github.com/longqing9/longqing9.github.io.git
+  repository: https://github.com/longqing9/longqing9.github.io.git
   # repository: git@github.com:longqing9/longqing9.github.io.git
-  repository: git@gitee.com:longqing9/blog.git
   branch: master
