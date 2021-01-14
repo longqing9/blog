@@ -113,6 +113,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/longqing9/longqing9.github.io.git
-  # repository: git@github.com:longqing9/longqing9.github.io.git
+  # repository: https://github.com/longqing9/longqing9.github.io.git
+  repository: git@github.com:longqing9/longqing9.github.io.git
   branch: master
