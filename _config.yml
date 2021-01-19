@@ -114,9 +114,6 @@ theme: next
 deploy:
   type: git
   # repository: https://github.com/longqing9/longqing9.github.io.git
-  repository: git@github.com:longqing9/longqing9.github.io.git
-<<<<<<< HEAD
-  # repository: git@gitee.com:longqing9/blog.git
-=======
->>>>>>> b4536751660c1a501e001df105ebe712697476fa
+  # repository: git@github.com:longqing9/longqing9.github.io.git
+  repository: git@gitee.com:longqing9/blog.git
   branch: master
