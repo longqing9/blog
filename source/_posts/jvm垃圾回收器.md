@@ -9,7 +9,7 @@ categories: java虚拟机
 
 在java虚拟机中，堆内存被划分新生代，老年代和持久代三部分。新生代被划分为Eden区、Survivor/S0区和Survivor/S1区。和具体划分如下：
 
-![堆内存分代图](E:\blog\source\images\2021011801.png)
+![堆内存分代图](https://longqing9.gitee.io/blog/images/2021011801.png)
 
 #### 二、GC的类型
 
@@ -36,7 +36,7 @@ categories: java虚拟机
 
 - 永久代 ：一些伴随虚拟机生命周期永久存在的对象，比如一些静态对象，常量等。这些对象被放在一块称为永久代的区域。永久代的特点是这些对象一般不需要垃圾回收，会在虚拟机运行过程中一直存活。（在Java1.7之前，方法区中存储的是永久代对象，Java1.7方法区的永久代对象移到了堆中，而在Java1.8永久代已经从堆中移除了，这块内存给了元空间。）
 
-  ![](E:\blog\source\images\2021011901.png)
+  ![](https://longqing9.gitee.io/blog/images/2021011901.png)
 
 #### 四、对象从新生代创建到老年代的历程：
 
